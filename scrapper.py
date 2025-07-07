@@ -1,7 +1,8 @@
+
+import json
+import csv
 import requests
 from bs4 import BeautifulSoup
-import csv
-import json
 
 url="http://books.toscrape.com"
 
@@ -43,5 +44,5 @@ if all_books:
  
 with open("books.json", "w", encoding="utf-8") as f:
     json.dump(all_books,f, indent=2, ensure_ascii=False )#ensure_ascii=False not to escape non ascii character
-
-
+# git config --global user.email "kreepakhanal1@gmail.com"
+#f#b#qgit 
