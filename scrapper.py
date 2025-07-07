@@ -44,5 +44,16 @@ if all_books:
  
 with open("books.json", "w", encoding="utf-8") as f:
     json.dump(all_books,f, indent=2, ensure_ascii=False )#ensure_ascii=False not to escape non ascii character
-# git config --global user.email "kreepakhanal1@gmail.com"
+    
+    #go to git bash
+    # git config --global user.namr "kripa khanal"
+    # git config --global user.email "kreepakhanal1@gmail.com"
+    
+    #git init
+    #git status=> if u want to check what are the status of file
+    #git diff=> if u want to check what are the changes
+    #git add.
+    #git commit -m "your message"
+    #copy paste git code from git bash
+    
 #f#b#qgit 
