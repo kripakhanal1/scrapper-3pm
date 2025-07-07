@@ -1,4 +1,19 @@
-
+#go to git bash
+    # git config --global user.namr "kripa khanal"
+    # git config --global user.email "kreepakhanal1@gmail.com"
+    
+    #git init
+    #git status=> if u want to check what are the status of file
+    #git diff=> if u want to check what are the changes
+    #git add.
+    #git commit -m "your message"
+    #copy paste git code from git bash
+    
+    #1. change the code
+    #2. git add.
+    #3. git commit -m "your message"
+    #4. git push
+#f#b#qgit 
 import json
 import csv
 import requests
@@ -56,4 +71,8 @@ with open("books.json", "w", encoding="utf-8") as f:
     #git commit -m "your message"
     #copy paste git code from git bash
     
+    #1. change the code
+    #2. git add.
+    #3. git commit -m "your message"
+    #4. git push
 #f#b#qgit 
